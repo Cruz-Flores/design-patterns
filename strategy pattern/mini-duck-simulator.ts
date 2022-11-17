@@ -1,8 +1,8 @@
-import { Duck } from './duck';
-import { FlyRocketPowered } from './fly-rocket-powered';
-import { MallardDuck } from './mallard-duck';
-import { ModelDuck } from './model-duck';
-import { RubberDuck } from './rubber-duck';
+import { Duck } from './abstracts/duck';
+import { FlyRocketPowered } from './fly-behaviors/fly-rocket-powered';
+import { MallardDuck } from './ducks/mallard-duck';
+import { ModelDuck } from './ducks/model-duck';
+import { RubberDuck } from './ducks/rubber-duck';
 
 export class MiniDuckSimulator {
   static main(): void {

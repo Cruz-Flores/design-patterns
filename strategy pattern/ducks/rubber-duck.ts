@@ -1,6 +1,6 @@
-import { Duck } from './duck';
-import { FlyNoWay } from './fly-no-way';
-import { Squeak } from './squeak';
+import { Duck } from '../abstracts/duck';
+import { FlyNoWay } from '../fly-behaviors/fly-no-way';
+import { Squeak } from '../quack-behaviors/squeak';
 
 export class RubberDuck extends Duck {
   constructor() {

@@ -1,6 +1,6 @@
-import { Duck } from './duck';
-import { FlyNoWay } from './fly-no-way';
-import { Quack } from './quack';
+import { Duck } from '../abstracts/duck';
+import { FlyNoWay } from '../fly-behaviors/fly-no-way';
+import { Quack } from '../quack-behaviors/quack';
 
 export class ModelDuck extends Duck {
   constructor() {
